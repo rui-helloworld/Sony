@@ -1,0 +1,267 @@
+body.w1200.vsc-initialized {
+	font-family: "Microsoft YaHei",Arial,"Hiragino Sans GB",Sans-Serif;
+	font-size: 12px;
+	line-height: 18px;
+	width: 100%;
+	color: #f0f1f3;
+	overflow-x: hidden;
+}
+body,div,ul,form{
+	padding: 0;
+	margin: 0;
+}
+li{list-style:none;}
+.left{float: left;}
+.right{float: right;}
+
+#mainAll{	}
+#header	{
+	height: 105px;
+	background-color: #000; 
+	width: 100%;}
+#header-mian {    
+	height: 105px;
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 100;}
+.clearfix:after{
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+#sonyLogo a {
+    float: left;
+    width: 100px;
+    height: 57px;
+    text-indent: -1000px;
+    background: url(../img/sonyLogo.jpg) no-repeat 0 center;
+    margin-left: 16px;
+}
+#header-userInfo a {
+	display: block;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+	text-indent: -1000px;
+}
+#header-userInfo #sonyChinaButton {
+    width: 48px;
+    height: 24px;
+    background-image: url(../img/sonychina.jpg);
+    background-repeat: no-repeat;
+    cursor: default;
+}
+#header-userInfo {
+    float: right;
+    margin-right: 17px;
+}
+#sonyGlobeHome {
+    width: 150px;
+    height: 24px;
+    background-image: url(../img/Grouplink_White_EN.png);
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+}
+
+
+
+#headerNav {
+    width: 100%;
+    height: 48px;
+}
+#headerNav li, #headerNav a.menu {
+    float: left;
+    height: 48px;
+    position: relative;
+    z-index: 100;
+}
+#headerNav a.menu {
+    background-image: url(../img/sony_nav.gif);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -1000px;
+}
+a, a:link {
+    text-decoration: none;
+}
+#headerNav01 a.menu {
+    width: 103px;
+    background-position: 0px 0px;
+}
+#headerNav02 a.menu {
+    width: 110px;
+    background-position: -103px 0px;
+}
+#headerNav03 a.menu {
+    width: 124px;
+    background-position: -213px 0px;
+}
+#headerNav04 a.menu {
+    width: 96px;
+    background-position: -337px 0px;
+}
+#headerNav05 a.menu {
+    width: 95px;
+    background-position: -433px 0px;
+}
+#headerNav06 a.menu {
+    width: 90px;
+    background-position: -528px 0px;
+}
+
+#headerSearch {
+    position: absolute;
+    top: 58px;
+    right: 13px;
+}
+#search-input {
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: #424242;
+    height: 16px;
+    width: 138px;
+    float: left;
+    background-color: black;
+    color: #595959;
+    padding: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+input, select {
+    vertical-align: text-top;
+}
+#btn-go {
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #424242;
+    width: 40px;
+    background: #424243 url(../img/searchBg.gif) center right no-repeat;
+    height: 26px;
+    text-indent: -1000px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 0px;
+}
+
+iframe{
+	border: 0rem;
+}
+
+#blocks {
+    margin-top: auto;
+    background: #f0f1f3;
+    padding-bottom: 30px;
+}
+.MainBlock {
+    margin: 0 auto;
+    position: relative;
+    min-height: 160px;
+    overflow: hidden;
+}
+.MainBlock .MBlock_h .MBlock {
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+.MainBlock .MBlock_h {
+    width: 610px;
+    float: left;
+}
+.MainBlock .MBlock_h>a {
+    display: block;
+    float: left;
+}
+
+.MainBlock .MBlock_h .MBlock {
+    min-width: 295px;
+    min-height: 194px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.MainBlockTop {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.MainBlockTop h2.tit {
+    display: inline;
+    margin: 0 auto;
+    padding: 10px 0 10px 42px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+}
+.MainProductBlock {
+    position: relative;
+    margin: 0 auto;
+    width: 1220px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mtb10 {
+    margin-bottom: 10px;
+}
+.MainBlock .MBlock_h .Block5 {
+    width: 600px;
+    height: 703px;
+}
+.MainBlock .MBlock_h .Block1 {
+    width: 600px;
+    height: 295px;
+}
+.MainBlock .MBlock_h .Block2 {
+    width: 295px;
+    height: 398px;
+}
+.MainBlock .MBlock_h .Block3 {
+    width: 295px;
+    height: 194px;
+}
+
+
+#footer {
+    background-color: #1f2024;
+    margin-top: 40px;
+    width: 100%;
+}
+#footer-detail {
+    border-bottom: 1px solid #333438;
+}
+#footerDetail {
+    width: 960px;
+    margin: 0 auto;
+    padding: 34px 0 43px 0;
+}
+#footerDetail .title {
+    font-size: 14px;
+}
+img.block {
+    display: block;
+}
+#footerDetail .detail {
+    padding-top: 18px;
+}
+#footerDetail .detail li a {
+    color: white;
+}
+#footerDetail .detail li {
+    line-height: 24px;
+}
+#footerDetail .footerStoreSearch {
+    padding-right: 23px;
+    background: url(../img/ooter_store_search.gif) right 2px no-repeat;
+    display: inline-block;
+}
+#footerDetail a {
+    color: #fff;
+}
+a, a:link {
+    text-decoration: none;
+}
+.size1of3 {
+    width: 33.33333%;
+}
